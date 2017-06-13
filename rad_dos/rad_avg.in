@@ -1,0 +1,18 @@
+ &inputpp
+    prefix  = 'si35h36'
+    outdir = 'out'
+    filplot = 'pospro'  ! name of the file where the band line up is plotted
+    Ef    = -3  ! fermi level of the full system, can be anywhere in the gap (eV)
+    Ef1   = -4.71  ! VBM of the full system (eV)
+    Ef2   = -1.23  ! CBM of the full system (eV)
+    delta = 0.01  ! small value (delta) to satisfy Eq.3 of Anh's manuscript (Ry)
+    degauss = 0.010 ! value used to smear the DOS (Ry)
+    DeltaE = 0.01 ! energy step for DOS and thus for the integration (eV)
+    r01=0.0 ! \
+    r02=0.0 ! |=> center of the radial average (alat)
+    r03=0.0 ! /
+    npts=120 ! number of points to be considered along the radial direction
+    bndmin=120
+    bndmax=160
+ / 
+
