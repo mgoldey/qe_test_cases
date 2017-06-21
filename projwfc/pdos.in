@@ -1,0 +1,11 @@
+&PROJWFC
+ngauss=0
+degauss=0.0
+Emin=-30
+Emax=15
+DeltaE=0.0001
+filpdos="pdos_total"
+outdir='out'
+skipfiles=.true.
+/
+

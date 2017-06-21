@@ -1,0 +1,32 @@
+&CONTROL
+calculation = "scf"
+outdir="out"
+pseudo_dir="../pseudos/"
+lipr=.true.
+/
+
+&SYSTEM
+ibrav=1,
+A=10
+nat=3,
+ntyp=2,
+ecutwfc=80.0,
+nbnd=10
+input_dft='pbe'
+assume_isolated='mp'
+/
+&ELECTRONS
+/
+&IONS
+/
+ATOMIC_SPECIES
+O 16.0d0 O_ONCV_PBE-1.0.UPF
+H 1.00d0 H_ONCV_PBE-1.0.UPF
+
+ATOMIC_POSITIONS (angstrom)
+O  5.0 5.0 5.010449354
+H  4.23415898   5.0 4.394775323
+H  5.76584102   5.0 4.394775323
+
+K_POINTS gamma
+
